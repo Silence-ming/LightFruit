@@ -1,0 +1,18 @@
+<!-- index.wxml -->
+<scroll-view class="scroll-view" scroll-y="true" enable-back-to-top="true" scroll-with-animation="true" scroll-anchoring="true">
+    <view class="scroll-view-item"  wx:for="{{viewDatas}}">
+      <image class="view-item-image" src="{{item.imgUrl}}"></image>
+      <view class="view-item-title">
+          <text class="item-title-title">{{item.title}}\n</text>
+      </view>
+      <view class="price-buy">
+          <text class="item-title-price">{{item.price}}元/斤</text>
+          <image class="item-title-add" src="images/add.png" bindtap="buyit" data-id="{{item.id}}">购买</image>     
+      </view>
+      <!-- 抛物线点 -->
+      <view class="good_box" hidden="{{item.hide}}" style="left: {{bus_x}}px; top: {{bus_y}}px;">
+        <image src="{{item.imgUrl}}"></image>
+      </view>
+    </view>
+    
+</scroll-view>
