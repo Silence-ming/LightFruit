@@ -1,2 +1,2 @@
 # LightFruit
-An  Wechat applet  fro fruit sales
+An  Wechat applet  for fruit sales.
