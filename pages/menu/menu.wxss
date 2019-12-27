@@ -4,7 +4,7 @@
   height: 100vh;
   white-space: nowrap;  
   box-sizing: border-box;
-  background-color: #F99E57;
+  background-color: rgb(228, 86, 68);
   display: flex;
   justify-content: center;
 }

@@ -1,7 +1,100 @@
 //app.js
 App({
   globalData: {
-    TotalNumber: 0 // 购物车数量
+    TotalNumber: 0,      
+    fruits: [
+      {
+        title: "江山徐香猕猴桃",
+        price: "5.99",
+        imgUrl: "/images/images/1.jpg",
+        id: "0",
+        hide: "true",   //抛物线小图片是否隐藏
+        num: 1,
+        selected: true    //购物车中是否被选中
+      },
+      {
+        title: "江山徐香猕猴桃",
+        price: "5.99",
+        imgUrl: "/images/images/1.jpg",
+        id: "1",
+        hide: "true",
+        num: 1,
+        selected: true
+      },
+      {
+        title: "海南芒果小台农",
+        price: "8.99",
+        imgUrl: "/images/images/2.jpg",
+        id: "2",
+        hide: "true",
+        num: 1,
+        selected: true
+      },
+      {
+        title: "江山徐香猕猴桃",
+        price: "5.99",
+        imgUrl: "/images/images/1.jpg",
+        id: "3",
+        hide: "true",
+        num: 1,
+        selected: true
+      },
+      {
+        title: "陕西新鲜当季红富士",
+        price: "5.98",
+        imgUrl: "/images/images/3.jpg",
+        id: "4",
+        hide: "true",
+        num: 1,
+        selected: true
+      },
+      {
+        title: "江山徐香猕猴桃",
+        price: "5.99",
+        imgUrl: "/images/images/1.jpg",
+        id: "5",
+        hide: "true",
+        num: 1,
+        selected: true
+      },
+      {
+        title: "陕西新鲜当季红富士",
+        price: "5.98",
+        imgUrl: "/images/images/a.jpg",
+        id: "6",
+        hide: "true",
+        num: 1,
+        selected: true
+      },
+      {
+        title: "陕西新鲜当季红富士",
+        price: "5.98",
+        imgUrl: "/images/images/b.jpg",
+        id: "7",
+        hide: "true",
+        num: 1,
+        selected: true
+      },
+      {
+        title: "陕西新鲜当季红富士",
+        price: "5.98",
+        imgUrl: "/images/images/c.jpg",
+        id: "8",
+        hide: "true",
+        num: 1,
+        selected: true
+      },
+      {
+        title: "秭归脐橙九月红橙子",
+        price: "4.50",
+        imgUrl: "/images/images/4.jpg",
+        id: "9",
+        hide: "true",
+        num: 1,
+        selected: true
+      }
+    ],
+    carts:[],
   },
   onLaunch: function (res) {
     // this.globalData.TotalNumber = res.data.shopNum;
